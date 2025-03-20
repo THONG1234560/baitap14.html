@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14-1.html</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let n = {
+            name: "John Doe",
+            age: 25, 
+            job: "Developer",
+            greet: function () {
+                console.log("Giá trị của thuộc tính name là: " + this.name); 
+                console.log("Giá trị của tất cả thuộc tính là:", this); 
+            },
+        };
+        n.greet();
+    </script>
+</body>
+</html>
+
